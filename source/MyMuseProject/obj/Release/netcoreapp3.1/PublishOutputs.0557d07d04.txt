@@ -1,7 +1,0 @@
-D:\VSsourceCode\MyMuseProject\obj\Release\netcoreapp3.1\PubTmp\Out\MyMuseProject.exe
-D:\VSsourceCode\MyMuseProject\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
-D:\VSsourceCode\MyMuseProject\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
-D:\VSsourceCode\MyMuseProject\obj\Release\netcoreapp3.1\PubTmp\Out\MyMuseProject.dll
-D:\VSsourceCode\MyMuseProject\obj\Release\netcoreapp3.1\PubTmp\Out\MyMuseProject.deps.json
-D:\VSsourceCode\MyMuseProject\obj\Release\netcoreapp3.1\PubTmp\Out\MyMuseProject.runtimeconfig.json
-D:\VSsourceCode\MyMuseProject\obj\Release\netcoreapp3.1\PubTmp\Out\MyMuseProject.pdb
