@@ -1,5 +1,5 @@
 # MyMuse :sparkles:
-.Net Core MVC 및 API Server를 연습하기 위한 사이트입니다.
+  + .Net Core MVC 및 API Server를 연습하기 위한 사이트입니다.
 
 # 목적
   + 유튜브 링크 음악을 광고없이 MP3만 나오게 한다.
