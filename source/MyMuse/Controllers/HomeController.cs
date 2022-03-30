@@ -28,6 +28,13 @@ namespace MyMuse.Controllers
             return View();
         }
 
+        public IActionResult Register(Song song)
+        {
+
+
+            return View("/Views/Home/List.cshtml");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
