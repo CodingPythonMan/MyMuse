@@ -8,3 +8,6 @@
 
 # 문서화
   + 모델링 : 재생목록(PlayList), 곡(Song)
+
+# 프레임워크
+  + EF or Dapper 등 ORM 기술 사용해보기
