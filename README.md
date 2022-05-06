@@ -9,8 +9,8 @@
 # 문서화
   + 모델링 : 재생목록(PlayList), 곡(Song)
 
-# 프레임워크
-  + EF or Dapper 등 ORM 기술 사용해보기
-
 # 추가 과제 (회사에서 해야하는 것들)
   + Bootstrap 쓰지 않은 채로 Modal 창 띄워보기 (2022-04-21)
+
+# Oracle Cloud 배포
+  + 배포시 추가
