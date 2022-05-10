@@ -3,3 +3,4 @@
 
 # Oracle Cloud 배포
   + 배포시 추가
+  + pultaeki.kr
