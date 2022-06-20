@@ -1,0 +1,92 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<section id="cards_landscape_wrap-2" th:fragment="fragment-projectList" class="container-sm mt-3">
+	<div class="row row-cols-1 row-cols-md-2 g-4">
+		<div class="col">
+			<div class="project-card card">
+				<img src="/img/myportfolio.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">MyPortfolio</h5>
+					<a class="stretched-link" data-bs-toggle="modal" data-bs-target="#portfolio"></a>
+				</div>
+				<div class="card-footer">
+					<small class="text-muted">2022-05-10 ~ 현재</small>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="project-card card">
+				<img src="/img/puppy.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Puppy Playtime</h5>
+					<a class="stretched-link" data-bs-toggle="modal" data-bs-target="#puppy"></a>
+				</div>
+				<div class="card-footer">
+					<small class="text-muted">2021-10-25 ~ 2022-01-02</small>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- The Modal -->
+	<div class="modal" id="portfolio">
+		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">MyPortfolio</h4>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">인원 : 1명</li>
+						<li class="list-group-item">담당 : 전체</li>
+						<li class="list-group-item"><a href="https://github.com/CodingPythonMan/Pultaeki-MyPortfolio" class="stretched-link">
+						GitHub 주소</a></li>
+					</ul>
+				</div>
+
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- The Modal -->
+	<div class="modal" id="puppy">
+		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">Puppy Playtime</h4>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">인원 : 6명</li>
+						<li class="list-group-item">담당 : 사용자 예약신청, 예약관리했습니다.</li>
+						<li class="list-group-item"><a href="https://github.com/CodingPythonMan/PuppyPlaytime" class="stretched-link">
+						GitHub 주소</a></li>
+					</ul>
+					
+				</div>
+
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+</html>

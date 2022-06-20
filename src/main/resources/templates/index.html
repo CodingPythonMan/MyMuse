@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>소개</title>
+	<link href="/css/style.css" rel="stylesheet" />
+	<div th:replace="/fragments/header.html :: fragment-header"></div>
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+	<nav th:replace="/fragments/nav.html :: fragment-nav"></nav>
+
+	<section class="profile">
+		<div class="container-sm">
+			<div class="row">
+				<div class="profile-image col-sm-2 mt-3 mb-3">
+					<img src="img/KimJuYoung.png" class="img-fluid" height="150" width="150" />
+				</div>
+				<div class="profile-content col-sm-10 mt-3 mb-3">
+					<h4>안녕하세요. 풀스택 개발자 김주영입니다.</h4>
+					<p>도메인에 대한 이해를 바탕으로 서버개발과 기업용 웹서비스를 만듭니다.
+						시간이 될 때마다 블로그 글도 쓰며, Notion으로 데일리 라이프를 관리하고 있습니다.
+						서로 소통하면 좋겠습니다. </p>
+
+					<div class="profile-address">
+						<p>&#128231; : robolab1902@naver.com</br>
+							<a href="https://velog.io/@robolab1902">Blog</a> |
+							<a href="https://github.com/CodingPythonMan">Github</a>
+						</p>
+						</divclass>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<div class="container mt-5">
+		<div class="container-title text-center bg-white">
+			<h4>기본 사항</h4>
+		</div>
+	</div>
+
+	<section class="container-sm mt-3">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card h-100">
+					<div class="card-body">
+						<h5 class="card-title">지아이티 인턴 수행</h5>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">부서 : 진단SW개발 1팀</li>
+							<li class="list-group-item">직무 : 서버개발자</li>
+							<li class="list-group-item">사용 : C#, .Net Framework</li>
+						</ul>
+						<br>
+						<p> 지아이티는 현대 모비스 자회사로 차량 진단기 회사입니다.
+							서버개발자로 일하는 동안 API Server, 웹사이트를 만들고 유지보수 하였습니다.
+						</p>
+					</div>
+					<div class="card-footer">
+						<small class="text-muted">2022-02-28 ~ 2022-05-11</small>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card h-100">
+					<div class="card-body">
+						<h5 class="card-title">자바 국비과정 수강</h5>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">담당 : 미래능력교육개발원</li>
+							<li class="list-group-item">과목명 : Practical 자바기반 빅데이터 융합개발자 양성</li>
+							<li class="list-group-item">시간 : 861시간 </li>
+						</ul>
+						<br>
+						<p> Java, DBMS(Oracle), JSP, Spring, MyBatis, R언어를 수강하였습니다.
+							Puppy Playtime 프로젝트 작성하였습니다.
+						</p>
+					</div>
+					<div class="card-footer">
+						<small class="text-muted">2021-07-26 ~ 2022-01-25</small>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card h-100">
+					<div class="card-body">
+						<h5 class="card-title">서울과학기술대학교(4년제) 본교 졸업</h5>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">졸업여부 : 졸업</li>
+							<li class="list-group-item">학점이수 : 141</li>
+						</ul>
+					</div>
+					<div class="card-footer">
+						<small class="text-muted">2016-03-02 ~ 2020-02-22</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="container mt-5">
+		<div class="container-title text-center bg-white">
+			<h4>기술 스택</h4>
+		</div>
+	</div>
+
+	<section class="container-sm mt-3">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card h-100">
+					<div class="card-body">
+						<h5 class="card-title">Java / Spring</h5>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Spring을 사용하여 웹을 개발해 본 경험이 있습니다.</li>
+							<li class="list-group-item">Java에서 지향하는 객체지향, Lambda, 함수형 프로그래밍에 대해 이해하고 있습니다.</li>
+							<li class="list-group-item">개발문서를 읽고 원하는 기능을 개발할 수 있습니다.</ll>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card h-100">
+					<div class="card-body">
+						<h5 class="card-title">C# / .Net</h5>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">.Net Framework, .NET을 사용하여 웹을 개발해 본 실무경험이 있습니다.</li>
+							<li class="list-group-item">지아이티에서 인턴기간동안 웹 작성 및 유지보수 수행했습니다.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card h-100">
+					<div class="card-body">
+						<h5 class="card-title">Git</h5>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Git을 활용한 소스코드 버전 관리 및 협업을 할 수 있습니다.</li>
+							<li class="list-group-item">Github등을 사용하여 프로젝트 관리 경험이 있습니다.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container-sm mt-5">
+		<div class="container-title text-center bg-white">
+			<h4>프로젝트 목록</h4>
+		</div>
+	</div>
+
+	<section th:replace="/fragments/projectList.html :: fragment-projectList"></section>
+
+	<div th:replace="/fragments/footer.html :: fragment-footer"></div>
+</body>
+<script src="/js/index.js"></script>
+
+</html>

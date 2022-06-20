@@ -1,0 +1,45 @@
+body{
+	padding-bottom: 70px;
+}
+
+.profile {
+	background-color: #ebf5ff;	
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Malgun Gothic';
+}
+
+p, a, li, ul {
+	font-size: 0.9rem;
+	font-family: 'Malgun Gothic';
+}
+
+img {
+	vertical-align: middle;
+}
+
+.profile-address {
+	position: absolute;
+	bottom: 0;
+}
+
+.profile-content{
+	position: relative;
+}
+
+.container-title{
+	border: 1px solid #eee;
+}
+
+
+@media all and (max-width:1024px)
+{
+	.profile{
+		text-align: center;
+	}
+	
+	.profile-address{
+		position: static;
+	}
+}
