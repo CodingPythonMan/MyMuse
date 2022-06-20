@@ -6,6 +6,10 @@ src/main/resources/static/img/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+.jpg
+.png
+.ico
+
 ### STS ###
 .apt_generated
 .classpath
